@@ -19,3 +19,12 @@ textarea {
   padding: 8px;
   margin-top: 8px;
 }
+
+button {
+  padding: 4px 16px;
+  cursor: pointer;
+}
+
+span {
+  font-size: 14px;
+}
