@@ -5,6 +5,6 @@
   const save = document.getElementById('save');
 
   save.addEventListener('click', () => {
-    alert(text.value);
+    localStorage.setItem('memo', text.value);
   });
 }
